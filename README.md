@@ -11,6 +11,11 @@ Manara is a serverless application built on AWS cloud services, implementing a R
 
 ## Architecture Components
 
+### DNS Layer (Route 53)
+- Domain name registration and management
+- DNS routing policies (weighted, latency-based, geolocation)
+- Health checks and automated DNS failover
+
 ### Frontend Layer (S3)
 - Static website hosting on Amazon S3
 - Direct integration with API Gateway
@@ -24,7 +29,7 @@ Manara is a serverless application built on AWS cloud services, implementing a R
 - CORS configuration
 - Rate limiting and throttling
 
-### Business Logic (Lambda)
+### Logic (Lambda)
 - Serverless functions for each CRUD operation
 - Event-driven architecture
 - Stateless execution
@@ -46,11 +51,6 @@ Manara is a serverless application built on AWS cloud services, implementing a R
 - Resource-based policies
 - Least privilege principle implementation
 
-### API Security
-- API key authentication
-- JWT token validation
-- Request signing
-- SSL/TLS encryption
 
 ## Monitoring and Logging
 
