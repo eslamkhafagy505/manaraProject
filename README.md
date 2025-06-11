@@ -4,8 +4,10 @@
 
 Manara is a serverless application built on AWS cloud services, implementing a REST API for managing to-do lists and customer records. The architecture leverages various AWS services to create a scalable, maintainable, and secure solution.
 
-## Architecture Diagram
-![[Manara.drawio.svg]]
+## Project Diagram
+
+![Project Architecture Diagram](./Manara.drawio.svg)
+
 
 ## Architecture Components
 
